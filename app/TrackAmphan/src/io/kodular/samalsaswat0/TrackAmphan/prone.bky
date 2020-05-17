@@ -1,0 +1,91 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="*_ZClj61rtt,l-^$d}/j" collapsed="true" x="-570" y="-250">
+    <mutation component_type="HorizontalArrangement" is_generic="false" instance_name="Horizontal_Arrangement4" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Horizontal_Arrangement4</field>
+    <statement name="DO">
+      <block type="component_method" id=",?`.ULr^$-N4H^1vW(#%">
+        <mutation component_type="WebViewer" method_name="Reload" is_generic="false" instance_name="Web_Viewer1"></mutation>
+        <field name="COMPONENT_SELECTOR">Web_Viewer1</field>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="J8r35i2ZU)UIT9svm:Ll" collapsed="true" x="-570" y="-210">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Card_View3" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Card_View3</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="xySmA~v5cw2Vmv3hQ`qu">
+        <value name="SCREEN">
+          <block type="text" id="^8m;e^8w}#ZK{]E*+Bt|">
+            <field name="TEXT">tweet</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="*G!VY~S`/3!lr.L4HE}W" collapsed="true" x="-570" y="-190">
+    <mutation component_type="Label" is_generic="false" instance_name="Label1" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Label1</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="sZ~JS+7v9t|jdVpQIb,Z">
+        <value name="SCREEN">
+          <block type="text" id="Of5c{3:Ct2N5e+r!v71B">
+            <field name="TEXT">tweet</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="1u=XHsgCn5ESL6{~_O[m" collapsed="true" x="-570" y="-150">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Card_View6" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Card_View6</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="qA2/!0A$rj2VNBG1L%^f">
+        <value name="SCREEN">
+          <block type="text" id="%[OV90?F`N=9[JbzuuQ1">
+            <field name="TEXT">Twitter</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="Eqpf[1++k;Wf?5=omhiE" collapsed="true" x="-570" y="-130">
+    <mutation component_type="Label" is_generic="false" instance_name="Label3" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Label3</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="4Jeou.j0HA`$p|m-_`mU">
+        <value name="SCREEN">
+          <block type="text" id="y6YUs--6:BL${/a)X{N@">
+            <field name="TEXT">Twitter</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="Ipfo:,r?v;:vhh$?THEC" collapsed="true" x="-570" y="-90">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Card_View5" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Card_View5</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="C0z?c9IhTRVUJ?(X!nK-">
+        <value name="SCREEN">
+          <block type="text" id="evE4*q[!uBwJ2~pz99rh">
+            <field name="TEXT">Screen1</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="3[${5%Kg8Dlm|+a|U#sb" collapsed="true" x="-570" y="-70">
+    <mutation component_type="Label" is_generic="false" instance_name="Label2" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Label2</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="o8:nwf`,7s/(T@GP`f6M">
+        <value name="SCREEN">
+          <block type="text" id="U@y4.=sNNd,!j$|(d@Te">
+            <field name="TEXT">Screen1</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="224" language-version="31"></yacodeblocks>
+</xml>

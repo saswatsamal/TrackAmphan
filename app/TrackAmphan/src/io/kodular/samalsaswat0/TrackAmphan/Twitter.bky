@@ -1,0 +1,353 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="0q12^sF$A~9j8FfN36X@" collapsed="true" x="-690" y="-470">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Card_View3" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Card_View3</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="@B)^6C}-y(SbAe_^lIsW">
+        <value name="SCREEN">
+          <block type="text" id="e#+FvpF^|}d^D9VO8G}S" collapsed="true">
+            <field name="TEXT">tweet</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="JEsgc^8TJc!Uh2:^$:Io" collapsed="true" x="-690" y="-450">
+    <mutation component_type="Label" is_generic="false" instance_name="Label10" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Label10</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="1U@zXfHN`sTjWA(=~ob^">
+        <value name="SCREEN">
+          <block type="text" id="hX=txaF]bhZ,k%AP5|_h" collapsed="true">
+            <field name="TEXT">tweet</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="9RM7GoDm5vm{L35}SNL?" collapsed="true" x="-690" y="-410">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Card_View14" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Card_View14</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="0W9iwW*NJooq9~!R{e/3">
+        <value name="SCREEN">
+          <block type="text" id=":[p!v^y~9Nb:BQO~,_Hj" collapsed="true">
+            <field name="TEXT">prone</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="C.#/ebp.zryK;r;lFy!]" collapsed="true" x="-690" y="-390">
+    <mutation component_type="Label" is_generic="false" instance_name="Label13" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Label13</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="uX!;y}Q1mPa!Z76l5bcl">
+        <value name="SCREEN">
+          <block type="text" id="uCGv,5pNZV;0XYiC-~?x" collapsed="true">
+            <field name="TEXT">prone</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="[!guJu)66Y+_NJv|dA4v" collapsed="true" x="-690" y="-350">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Card_View5" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Card_View5</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="Y+KJs69=1A:2WQ29+[66">
+        <value name="SCREEN">
+          <block type="text" id="ayIhjhf#cH|eP)SceF}e">
+            <field name="TEXT">Screen1</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="Dj{)JS:1Rvy=HFo8v7wh" collapsed="true" x="-690" y="-330">
+    <mutation component_type="Label" is_generic="false" instance_name="Label12" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Label12</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="2au![@N[}sg7IYw.Tbqt">
+        <value name="SCREEN">
+          <block type="text" id="eAH~9856+Tp:.OW0-I#Z">
+            <field name="TEXT">Screen1</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="^~[:RNwJs8#kmlscRcv$" collapsed="true" x="-690" y="-290">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Card_View12" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Card_View12</field>
+    <statement name="DO">
+      <block type="component_set_get" id="`s9}S2^%8bu]5)Iu%kGV">
+        <mutation component_type="ActivityStarter" set_or_get="set" property_name="DataUri" is_generic="false" instance_name="Activity_Starter1"></mutation>
+        <field name="COMPONENT_SELECTOR">Activity_Starter1</field>
+        <field name="PROP">DataUri</field>
+        <value name="VALUE">
+          <block type="text" id="i=le{Yk0.XL9w?sMv7{r">
+            <field name="TEXT">https://www.instagram.com/soafablab/</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="t]chTZwV-`xtntlnc*@/">
+            <mutation component_type="ActivityStarter" set_or_get="set" property_name="Action" is_generic="false" instance_name="Activity_Starter1"></mutation>
+            <field name="COMPONENT_SELECTOR">Activity_Starter1</field>
+            <field name="PROP">Action</field>
+            <value name="VALUE">
+              <block type="text" id="]83zqw|P_dkt2x`p{:dr">
+                <field name="TEXT">android.intent.action.VIEW</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="@w1TgvAg?%^=}){f??~f">
+                <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="Activity_Starter1"></mutation>
+                <field name="COMPONENT_SELECTOR">Activity_Starter1</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="iOI!|M`-),~p0HZaBg8-" collapsed="true" x="-690" y="-270">
+    <mutation component_type="Image" is_generic="false" instance_name="Image2" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Image2</field>
+    <statement name="DO">
+      <block type="component_set_get" id="NiU*`yJPv,MzY8{lSxL9">
+        <mutation component_type="ActivityStarter" set_or_get="set" property_name="DataUri" is_generic="false" instance_name="Activity_Starter1"></mutation>
+        <field name="COMPONENT_SELECTOR">Activity_Starter1</field>
+        <field name="PROP">DataUri</field>
+        <value name="VALUE">
+          <block type="text" id="BOZH%f.cQgvW/yzkWSvr">
+            <field name="TEXT">https://www.instagram.com/soafablab/</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="A!?k:CX#=#f,ZQw9nvJn">
+            <mutation component_type="ActivityStarter" set_or_get="set" property_name="Action" is_generic="false" instance_name="Activity_Starter1"></mutation>
+            <field name="COMPONENT_SELECTOR">Activity_Starter1</field>
+            <field name="PROP">Action</field>
+            <value name="VALUE">
+              <block type="text" id="Ek;0XeaLyl~:awkWpKPr">
+                <field name="TEXT">android.intent.action.VIEW</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="zHEZbyxesv{#3y-c])(x">
+                <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="Activity_Starter1"></mutation>
+                <field name="COMPONENT_SELECTOR">Activity_Starter1</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="|a^^)G}6[;1xc}O5H]UP" collapsed="true" x="-690" y="-230">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Card_View9" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Card_View9</field>
+    <statement name="DO">
+      <block type="component_set_get" id="~PMMAAX:0`.C[L=~b(7F">
+        <mutation component_type="ActivityStarter" set_or_get="set" property_name="DataUri" is_generic="false" instance_name="Activity_Starter1"></mutation>
+        <field name="COMPONENT_SELECTOR">Activity_Starter1</field>
+        <field name="PROP">DataUri</field>
+        <value name="VALUE">
+          <block type="text" id="p)Mbn_mzH5XTe%CFqwMC">
+            <field name="TEXT">https://github.com/soafablab</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="P@B^0ZDC4^GM2mtZ+jzJ">
+            <mutation component_type="ActivityStarter" set_or_get="set" property_name="Action" is_generic="false" instance_name="Activity_Starter1"></mutation>
+            <field name="COMPONENT_SELECTOR">Activity_Starter1</field>
+            <field name="PROP">Action</field>
+            <value name="VALUE">
+              <block type="text" id="ljoT1LYa{mab3JyLwzX8">
+                <field name="TEXT">android.intent.action.VIEW</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="}Z1c@b)a@Fh?kF`?cL)1">
+                <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="Activity_Starter1"></mutation>
+                <field name="COMPONENT_SELECTOR">Activity_Starter1</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="E!-Vi^]]D!e6CU_h58pw" collapsed="true" x="-690" y="-210">
+    <mutation component_type="Image" is_generic="false" instance_name="Image3" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Image3</field>
+    <statement name="DO">
+      <block type="component_set_get" id="f8*@Y),%0jRR0^^xsSKL">
+        <mutation component_type="ActivityStarter" set_or_get="set" property_name="DataUri" is_generic="false" instance_name="Activity_Starter1"></mutation>
+        <field name="COMPONENT_SELECTOR">Activity_Starter1</field>
+        <field name="PROP">DataUri</field>
+        <value name="VALUE">
+          <block type="text" id="bFkFOH-1(t.:9o@3_v79">
+            <field name="TEXT">https://github.com/soafablab</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="5;PzCE5ib@K|i@@!#w{{">
+            <mutation component_type="ActivityStarter" set_or_get="set" property_name="Action" is_generic="false" instance_name="Activity_Starter1"></mutation>
+            <field name="COMPONENT_SELECTOR">Activity_Starter1</field>
+            <field name="PROP">Action</field>
+            <value name="VALUE">
+              <block type="text" id="5HQnS)CVjhE7tmZbc#65">
+                <field name="TEXT">android.intent.action.VIEW</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="u#X$x2]{!$SO7Sx4Iy|i">
+                <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="Activity_Starter1"></mutation>
+                <field name="COMPONENT_SELECTOR">Activity_Starter1</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id=")E`|f;3}mPw34@)~]vIm" collapsed="true" x="-690" y="-170">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Card_View10" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Card_View10</field>
+    <statement name="DO">
+      <block type="component_set_get" id="TARHvW*8)XD~YnFXa]At">
+        <mutation component_type="ActivityStarter" set_or_get="set" property_name="DataUri" is_generic="false" instance_name="Activity_Starter1"></mutation>
+        <field name="COMPONENT_SELECTOR">Activity_Starter1</field>
+        <field name="PROP">DataUri</field>
+        <value name="VALUE">
+          <block type="text" id=":KPOue~xAnCzzK/wnU,+">
+            <field name="TEXT">https://www.facebook.com/soafablab</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="bW@UsF#dtFtMt/R[+*#*">
+            <mutation component_type="ActivityStarter" set_or_get="set" property_name="Action" is_generic="false" instance_name="Activity_Starter1"></mutation>
+            <field name="COMPONENT_SELECTOR">Activity_Starter1</field>
+            <field name="PROP">Action</field>
+            <value name="VALUE">
+              <block type="text" id="/AA*(Gp(dt^RQe[RkNRm">
+                <field name="TEXT">android.intent.action.VIEW</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="AGj%ZNvsKz=Gn6,)VQY-">
+                <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="Activity_Starter1"></mutation>
+                <field name="COMPONENT_SELECTOR">Activity_Starter1</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="U]h+C]W--m@Dx]T(|M@U" collapsed="true" x="-690" y="-150">
+    <mutation component_type="Image" is_generic="false" instance_name="Image4" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Image4</field>
+    <statement name="DO">
+      <block type="component_set_get" id="=tr9)(Rk!s6CXo|,t]m]">
+        <mutation component_type="ActivityStarter" set_or_get="set" property_name="DataUri" is_generic="false" instance_name="Activity_Starter1"></mutation>
+        <field name="COMPONENT_SELECTOR">Activity_Starter1</field>
+        <field name="PROP">DataUri</field>
+        <value name="VALUE">
+          <block type="text" id="vQi?T1^v~X.+ungBToey">
+            <field name="TEXT">https://www.facebook.com/soafablab</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="wU%RJJ)r1GuRxztfx6PX">
+            <mutation component_type="ActivityStarter" set_or_get="set" property_name="Action" is_generic="false" instance_name="Activity_Starter1"></mutation>
+            <field name="COMPONENT_SELECTOR">Activity_Starter1</field>
+            <field name="PROP">Action</field>
+            <value name="VALUE">
+              <block type="text" id="?^OjsTHBd]9C7IXQN|l=">
+                <field name="TEXT">android.intent.action.VIEW</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="IGJa{]:bM%}`Kzm{6RK8">
+                <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="Activity_Starter1"></mutation>
+                <field name="COMPONENT_SELECTOR">Activity_Starter1</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="BKo-{S)qwklg!jlh#7zR" collapsed="true" x="-70" y="-170">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Card_View13" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Card_View13</field>
+    <statement name="DO">
+      <block type="component_set_get" id="c4Vw9Q(~lx$V?@R8%z^a" collapsed="true">
+        <mutation component_type="ActivityStarter" set_or_get="set" property_name="DataUri" is_generic="false" instance_name="Activity_Starter2"></mutation>
+        <field name="COMPONENT_SELECTOR">Activity_Starter2</field>
+        <field name="PROP">DataUri</field>
+        <value name="VALUE">
+          <block type="text" id="i%Jxp!C^-5c=byDMPmH[">
+            <field name="TEXT">https://saswatsamal.github.io/</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="V(.gs1=@jjwv+t9#I?an" collapsed="true">
+            <mutation component_type="ActivityStarter" set_or_get="set" property_name="Action" is_generic="false" instance_name="Activity_Starter2"></mutation>
+            <field name="COMPONENT_SELECTOR">Activity_Starter2</field>
+            <field name="PROP">Action</field>
+            <value name="VALUE">
+              <block type="text" id="1AA0l9X%g|%CYK@Do)~,">
+                <field name="TEXT">android.intent.action.VIEW</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="~LYjvc3g~#x|a{v~[=8f" collapsed="true">
+                <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="Activity_Starter2"></mutation>
+                <field name="COMPONENT_SELECTOR">Activity_Starter2</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="}5:}z^A[AhGlGHG{2yP#" collapsed="true" x="-390" y="-130">
+    <mutation component_type="Label" is_generic="false" instance_name="Label7" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Label7</field>
+    <statement name="DO">
+      <block type="component_set_get" id="0~Y2e*I8G)one.@M@-aM" collapsed="true">
+        <mutation component_type="ActivityStarter" set_or_get="set" property_name="DataUri" is_generic="false" instance_name="Activity_Starter2"></mutation>
+        <field name="COMPONENT_SELECTOR">Activity_Starter2</field>
+        <field name="PROP">DataUri</field>
+        <value name="VALUE">
+          <block type="text" id="f$UTJi+h:aZh2;7l^Y=y">
+            <field name="TEXT">https://saswatsamal.github.io/</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id=",?WsM{D52kxCScT%[`^B" collapsed="true">
+            <mutation component_type="ActivityStarter" set_or_get="set" property_name="Action" is_generic="false" instance_name="Activity_Starter2"></mutation>
+            <field name="COMPONENT_SELECTOR">Activity_Starter2</field>
+            <field name="PROP">Action</field>
+            <value name="VALUE">
+              <block type="text" id="X48bZ~K.i9#ir6h;Bk%S">
+                <field name="TEXT">android.intent.action.VIEW</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="G4E~nUB=6#FdYbK%y[C*" collapsed="true">
+                <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="Activity_Starter2"></mutation>
+                <field name="COMPONENT_SELECTOR">Activity_Starter2</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="224" language-version="31"></yacodeblocks>
+</xml>

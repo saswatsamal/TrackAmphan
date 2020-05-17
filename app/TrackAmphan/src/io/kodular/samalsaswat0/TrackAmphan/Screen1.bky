@@ -1,0 +1,126 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="GBB~v`$`=fS+!`C:-!~i" collapsed="true" x="30" y="-70">
+    <mutation component_type="HorizontalArrangement" is_generic="false" instance_name="Horizontal_Arrangement4" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Horizontal_Arrangement4</field>
+    <statement name="DO">
+      <block type="component_method" id="K?}WI}5zKp55FcE:ND:?">
+        <mutation component_type="WebViewer" method_name="Reload" is_generic="false" instance_name="Web_Viewer1"></mutation>
+        <field name="COMPONENT_SELECTOR">Web_Viewer1</field>
+        <next>
+          <block type="component_method" id="@Ol/Fp.*Q]Sv(e5pAf#1">
+            <mutation component_type="Web" method_name="Get" is_generic="false" instance_name="Web1"></mutation>
+            <field name="COMPONENT_SELECTOR">Web1</field>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="2leC[B#d|lZ|AmQ?~^}J" collapsed="true" x="30" y="-30">
+    <mutation component_type="Form" is_generic="false" instance_name="Screen1" event_name="Initialize"></mutation>
+    <field name="COMPONENT_SELECTOR">Screen1</field>
+    <statement name="DO">
+      <block type="component_method" id="1nfyw_eoeYJ,jgOR1Uti">
+        <mutation component_type="Web" method_name="Get" is_generic="false" instance_name="Web1"></mutation>
+        <field name="COMPONENT_SELECTOR">Web1</field>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="q;$y8q:`K`Ep@tqB-r`y" collapsed="true" x="30" y="-10">
+    <mutation component_type="Web" is_generic="false" instance_name="Web1" event_name="GotText"></mutation>
+    <field name="COMPONENT_SELECTOR">Web1</field>
+    <statement name="DO">
+      <block type="component_set_get" id="RG(*s:8pgNs+et{|,u*I">
+        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label1"></mutation>
+        <field name="COMPONENT_SELECTOR">Label1</field>
+        <field name="PROP">Text</field>
+        <value name="VALUE">
+          <block type="lexical_variable_get" id="@]/;/!}}_.KuHUaWEIn^">
+            <mutation>
+              <eventparam name="responseContent"></eventparam>
+            </mutation>
+            <field name="VAR">responseContent</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="@-g)_Kt#%*$)N@O4rD[}" collapsed="true" x="30" y="30">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Card_View3" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Card_View3</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="PU*||%:hG0kdHVenDaQz">
+        <value name="SCREEN">
+          <block type="text" id="[/iU!w)5R9E}Y_m}AbF]">
+            <field name="TEXT">tweet</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="O:VHT2RKA9Dpxx2|UX)b" collapsed="true" x="30" y="50">
+    <mutation component_type="Label" is_generic="false" instance_name="Label2" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Label2</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="j$y:?^Pyry05gWvv$!q4">
+        <value name="SCREEN">
+          <block type="text" id="d-VuJ(;6Y06zgTvrg^(o">
+            <field name="TEXT">tweet</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="(`UI3G:=0sh)eGez~BiZ" collapsed="true" x="30" y="90">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Card_View5" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Card_View5</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="|Ir94?)-Fa-=L8)0|KHy">
+        <value name="SCREEN">
+          <block type="text" id="CW;}aS3%@GTD(uB)8G3/">
+            <field name="TEXT">Twitter</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="{xDJu)fC,hkz#ke_;v{K" collapsed="true" x="30" y="110">
+    <mutation component_type="Label" is_generic="false" instance_name="Label3" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Label3</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="i(y$Lu;~4o2k(r%z1-yR">
+        <value name="SCREEN">
+          <block type="text" id="J4$_.qxcp%})!C8,K|xc">
+            <field name="TEXT">Twitter</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="Bg,^6P)yBlFwkQ$_G=z+" collapsed="true" x="30" y="150">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Card_View6" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Card_View6</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="j]Xw?Ud3.Il51_!5721=">
+        <value name="SCREEN">
+          <block type="text" id="q8CC7$Dmt~7~I/~uo!N=">
+            <field name="TEXT">prone</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="puvqMC)%X3!B)~4Xm@Z5" collapsed="true" x="30" y="170">
+    <mutation component_type="Label" is_generic="false" instance_name="Label4" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Label4</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id=".EZK4==e@3ia#Nj8u)`S">
+        <value name="SCREEN">
+          <block type="text" id="$ql^7iC+|dXt|uBZTNSz">
+            <field name="TEXT">prone</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="224" language-version="31"></yacodeblocks>
+</xml>
